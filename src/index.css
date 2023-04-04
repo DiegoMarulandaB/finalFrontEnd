@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: var(--font-family-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: var(--font-family-code);
+}
+
+main {
+  height: 30%;
+}
+.row {
+  align-items: center;
+}
+
+h1 {
+  padding: 3rem;
+  text-align: center;
+  color: var(--h1-color);
+}
+
+.navbar-brand span {
+  color: var(--navbar-brand-span-color);
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+a,
+h6 {
+  color: var(--a-h6-color);
+  text-decoration: none;
+  cursor: pointer;
+  margin: 6px;
+}
+
+a:hover {
+  color: var(--a-hover);
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.6rem 0.6rem 0 0.6rem;
+  border-radius: 10px;
+  border: 2px solid var(--card-border);
+}
+.card-grid {
+  padding-bottom: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.125rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn-light {
+  background-color: var(--btn-light-bg-color);
+}
+.contact {
+  text-align: center;
+  padding: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+@media (max-width: 800px) {
+  .card-grid {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+}
