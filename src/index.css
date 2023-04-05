@@ -75,6 +75,10 @@ form {
   margin: 0 auto;
   padding-bottom: 90px;
 }
+.dentist-Information {
+  text-align: center;
+  padding: 30px;
+}
 
 @media (max-width: 800px) {
   .card-grid {

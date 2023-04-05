@@ -16,7 +16,7 @@ const DetailCard = () => {
   return (
     <>
       {dentist ? (
-        <section className="dentistInformation">
+        <section className="dentist-Information">
           <h1>
             <strong>Detail Dentist</strong> {dentist?.name}{" "}
           </h1>
