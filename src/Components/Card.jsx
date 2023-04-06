@@ -28,7 +28,9 @@ const Card = ({ name, username, id }) => {
           <h6>{name}</h6>
         </Link>
         <p>{username}</p>
-        <button onClick={fav ? deleteFav : addFav}>💓</button>
+        <button className="btn-add-fav" onClick={fav ? deleteFav : addFav}>
+          💓
+        </button>
       </div>
     </div>
   );

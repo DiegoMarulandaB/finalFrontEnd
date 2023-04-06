@@ -84,6 +84,11 @@ form {
   margin: 0 auto;
   padding-bottom: 8rem;
 }
+
+.btn-add-fav {
+  border-radius: 30px;
+  margin: 6px;
+}
 .dentist-Information {
   text-align: center;
   padding: 30px;
