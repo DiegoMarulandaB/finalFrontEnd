@@ -25,6 +25,9 @@
 
   /* btn-light */
   --btn-light-bg-color: rgb(214, 214, 214);
+  --btn-form-bg-color: #f8f9fa;
+  --btn-form-hover-color: #fff;
+  --btn-form-hover-bg-color: #cb1e40;
 
   /* NavbarModule */
 

@@ -70,6 +70,18 @@ a:hover {
 .btn-light {
   background-color: var(--btn-light-bg-color);
 }
+
+.btn-form {
+  margin: 10px;
+  border-radius: 10px;
+  background-color: var(--btn-form-bg-color);
+}
+
+.btn-form:hover {
+  color: var(--btn-form-hover-color);
+  border-radius: 10px;
+  background-color: var(--btn-form-hover-bg-color);
+}
 .contact {
   display: grid;
   place-items: center;
