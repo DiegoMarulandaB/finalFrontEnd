@@ -21,6 +21,7 @@
 
   /* card */
   --card-border: rgb(136, 136, 136);
+  --card-hover-color: #cb1e40;
 
   /* btn-light */
   --btn-light-bg-color: rgb(214, 214, 214);
