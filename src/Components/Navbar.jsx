@@ -25,8 +25,10 @@ const Navbar = () => {
       >
         <div className="container">
           <Link className={`navbar-brand ${styles.navbarBrand}`} to="/home">
-            {/* DH Odonto */}
-            <span>D</span>H Odonto
+            <span>
+              <strong>D</strong>
+            </span>
+            H Odonto
           </Link>
           <button
             className="navbar-toggler"
