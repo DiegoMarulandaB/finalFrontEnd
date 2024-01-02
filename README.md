@@ -2,6 +2,10 @@
 
 Examen Final de Frontend III
 
+## Proyecto final de la asignatura Frontend 3, de la carrera Certified Tech Developer. Aplicación de salud conectada con la API jsonplaceholder.typicode.com. Herramientas que utilizan Vite y React.js. 17/04/2023
+
+## Final project of the Frontend 3 subject, of the Certified Tech Developer career. Health application connected with the jsonplaceholder.typicode.com API. Tools that use Vite and React.js. 17/04/2023
+
 ## Indice
 
 - [Requisitos](#requisitos)
